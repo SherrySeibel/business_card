@@ -11,3 +11,11 @@ html {
     height: 100px;
     width: auto;
 }
+
+#content h1 {
+	font-family: 'Kite One', sans-serif;
+}
+
+#content p {
+	font-family: 'Kite One', sans-serif;
+}

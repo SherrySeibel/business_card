@@ -1,21 +1,31 @@
+/* adding a background with a black to white gradient. 
+The many iterations of this code allows the background 
+to appear correctly across many browsers */
 html {
-	background-image: 
+    height: 100%;
+    background: -webkit-linear-gradient(180deg, black, white); 
+    background: -o-linear-gradient(180deg, black, white); 
+    background: -moz-linear-gradient(180deg, black, white); 
+    background: linear-gradient(180deg, black, white); 
 }
 
+/* positioning the photo */
 #photo {
-	border-radius: 75%;
+	border-radius: 75%; /* making the photo round */
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    height: 100px;
-    width: auto;
+    margin-top: 20%;
+    height: 100px; /* resizing */
+    width: auto; /* resizing */
 }
 
+/* customizing the fonts */
 #content h1 {
-	font-family: 'Kite One', sans-serif;
+	font-family: 'Old Standard TT', serif;
 }
 
 #content p {
-	font-family: 'Kite One', sans-serif;
+	font-family: 'Indie Flower', cursive;
+    font-size: 14pt;
 }

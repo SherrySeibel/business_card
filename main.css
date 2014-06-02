@@ -29,3 +29,9 @@ html {
 	font-family: 'Indie Flower', cursive;
     font-size: 14pt;
 }
+
+#placement {
+    text-align: center;
+    position: relative;
+}
+
